@@ -1,0 +1,82 @@
+.cards{
+  display: flex;
+  justify-content: center;     
+  align-items: center;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 10px;
+}
+
+body{
+    text-align: center;
+}
+
+#section3{
+    background-image: url("./media/destination.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    align-items: center;
+}
+
+.white1{
+    color: azure;
+    font-size: 55px;
+}
+
+.white2{
+    color: azure;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+}
+
+button{
+    padding: 10px;
+    margin: 15px;
+}
+
+#section2{
+    background-color: rgb(35, 148, 214);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navlink{
+    padding: 30px; 
+    text-decoration: double;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+#section1 {
+    background-color: rgb(35, 148, 214);
+    color: rgb(0, 78, 122);
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    align-items: center;
+  }
+  
+  #section1 h1 {
+    color: aliceblue;
+    font-size: 60px;
+    letter-spacing: 25px;
+    margin-bottom: 0;
+    margin-top: 3px;
+  }
+  
+  #section1 p {
+    color: aliceblue;
+    margin-top: 1;
+    font-size: 15px;
+  }

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./media/airplane.png" type="image/x-icon">
+
+    <title>Journey</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <center>
+    <br><h1  style="font-family:monospace">Search flights:</h1>
+    <table style="background-color: rgb(146, 209, 245); border-radius: 30px;">
+        <tr>
+            <td class="form1">
+                <label for="" style="font-size: 25px;">Enter From Location:</label>
+                <input type="text" style="height: 25px;  border-radius: 10px;">
+            </td>
+            <td class="form1">
+                <label for="" style="font-size: 25px;">Enter to Location:</label>
+                <input type="text" style="height: 25px;  border-radius: 10px;">
+            </td>
+            <td class="form1">
+                <label for="" style="font-size: 25px;">Select departure date:</label>
+                <input type="date" style="height: 25px; width: 250px;  border-radius: 10px;">
+            </td>
+        </tr>
+
+    </table>
+    <br><h1  style="font-family:monospace">Available flights:</h1>
+    <table border="1" cellpadding="10" style="width: 1000px; border-collapse: collapse; text-align: center;">
+          <tr>
+            <th>Flight No.</th>
+            <th>Airline</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+            <th>Status</th>
+            <th>Book</th>
+          </tr>
+          <tr>
+            <td>AI203</td>
+            <td>Air India</td>
+            <td>New Delhi (DEL)</td>
+            <td>London (LHR)</td>
+            <td>10:30 AM</td>
+            <td>3:45 PM</td>
+            <td style="color: green;">On Time</td>
+            <td><button>Book now</button></td>
+          </tr>
+          <tr>
+            <td>EK505</td>
+            <td>Emirates</td>
+            <td>Mumbai (BOM)</td>
+            <td>Dubai (DXB)</td>
+            <td>1:15 PM</td>
+            <td>3:10 PM</td>
+            <td style="color: orange;">Boarding</td>
+            <td><button>Book now</button></td>
+          </tr>
+          <tr>
+            <td>SPN142</td>
+            <td>British Airways</td>
+            <td>Delhi (DEL)</td>
+            <td>Spain (SPN)</td>
+            <td>11:00 AM</td>
+            <td>4:20 PM</td>
+            <td style="color: red;">Delayed</td>
+            <td><button>Book now</button></td>
+          </tr>
+          <tr>
+            <td>THA63</td>
+            <td>Indigo</td>
+            <td>Bangalore (BLR)</td>
+            <td>Thailand (THA)</td>
+            <td>12:45 PM</td>
+            <td>7:00 PM</td>
+            <td style="color: green;">On Time</td>
+            <td><button>Book now</button></td>
+          </tr>
+          <tr>
+            <td>QR571</td>
+            <td>Qatar Airways</td>
+            <td>Kolkata (CCU)</td>
+            <td>Doha (DOH)</td>
+            <td>9:50 AM</td>
+            <td>12:30 PM</td>
+            <td style="color: green;">On Time</td>
+            <td><button>Book now</button></td>
+          </tr>
+      </table><br>
+
+      <h1  style="font-family:monospace">Payment:</h1>
+      <fieldset style="width: 1000px">
+        <legend>Passenger Information</legend>
+        <label>Full Name:</label>
+        <input type="text" name="fullname" >
+        
+        <label>Email:</label>
+        <input type="email" name="email" >
+        
+        <label>Phone Number:</label>
+        <input type="number" name="phone" >
+      </fieldset><br>
+
+      <fieldset style="width: 1000px">
+        <legend>Flight Details</legend>
+        <label>Flight Number:</label>
+        <input type="text" name="flight">
+
+        <label>Class:</label>
+        <select name="class" >
+          <option value="">-- Select --</option>
+          <option value="">Economy</option>
+          <option value="">Business</option>
+          <option value="">First Class</option>
+        </select>
+      </fieldset><br>
+
+      <fieldset style="width: 1000px">
+        <legend>Payment Method</legend>
+
+        <label>Payment Method:</label>
+        <input type="radio" name="pay" id=""><label for="">Card</label>
+        <input type="radio" name="pay" id=""><label for="">Gpay</label><br><br>
+
+        <label>Cardholder Name:</label>
+        <input type="text" name="cardname" required>
+  
+        <label>Card Number:</label>
+        <input type="text" name="cardnumber" required>
+  
+        <label>Expiry Date:</label>
+        <input type="month" name="expiry" required><br><br>
+  
+        <label>CVV:</label>
+        <input type="password" name="cvv" required>
+      </fieldset><br><br>
+
+      <button style="font-size: 20px;"><a href="home.html">Book ticket</a></button><br><br><br>
+    </center>
+
+</html>
